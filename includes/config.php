@@ -19,5 +19,5 @@ if ($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == '192.168.43
 /* =========== Website Configuration ========== */
 
 $serverRoot = "http://".$_SERVER['HTTP_HOST']."/mobile/";
-$serverLocalRoot = $_SERVER['DOCUMENT_ROOT']."mobile/";
+$serverLocalRoot = $_SERVER['DOCUMENT_ROOT']."/mobile/";
 ?>

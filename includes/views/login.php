@@ -9,7 +9,7 @@
                     ?>
                         
                     var idusers = localStorage.getItem("idusers");
-                    if (idusers!=''){
+                    if (idusers!='undefined'){
                         $.mobile.loading('show');
                         $.post("<?php echo "" . $GLOBALS['serverRoot'] . "includes/ajax/login.php"; ?>",
                             {   idusers: idusers
