@@ -1,0 +1,47 @@
+
+#content{
+    //background: url("../img/splashscreen.jpg");
+}
+
+#h1content {
+    text-align: center;
+}
+
+.rotate {
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+    /*transform: rotate(180deg);*/
+    transition: .3s;
+}
+.rotate2 {
+    display: inline-block;
+    -webkit-transform: rotate(0deg);
+    transition: .3s;
+}
+.rotate3 {
+    display: inline-block;
+    -webkit-transform: rotate(180deg);
+    /*transform: rotate(180deg);*/
+    transition: .3s;
+}
+.rotate4 {
+    display: inline-block;
+    
+    -webkit-transform: rotate(270deg);
+    transition: .3s;
+}
+
+#preview {
+    width: 80%; max-width: 300px;
+    margin: auto;
+}
+#preview img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.hiddenfile {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
